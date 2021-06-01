@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "91071729-421a-4a55-9f9d-b53f3a8f08a1",
+		"name": "Limit Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Limits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/limits",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"limits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
